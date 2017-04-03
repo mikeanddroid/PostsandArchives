@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Posts and Archives</string>
+
+    <string name="loading_info">Loading info.. Please wait</string>
+    <string name="logout_message">This will log you out of the application. Do you still want to continue ?</string>
+    <string name="logout_title">Logging out</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="login_error">Login Error</string>
+
+    <string name="error_network">There was a problem finding your request. Please try again.</string>
+    <string name="error_conversion">There was a problem finding your request. Please try again.</string>
+    <string name="error_server">There was a problem finding your request. Please try again.</string>
+    <string name="error_unexpected">There was a problem finding your request. Please try again.</string>
+    <string name="user">User</string>
+
+</resources>
