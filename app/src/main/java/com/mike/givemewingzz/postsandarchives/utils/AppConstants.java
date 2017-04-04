@@ -33,7 +33,7 @@ public class AppConstants {
 
     private static String authURLString;
 
-    public static final String CLIENT_ID = "YOUR CLINT ID";
+    public static final String CLIENT_ID = "CLIENT_ID";
 
     private static String LOGIN_URL = AUTHURL
             + "?client_id=" + CLIENT_ID
@@ -62,14 +62,14 @@ public class AppConstants {
         return null;
     }
 
-    public static SharedPreferences getSharedPreference(Context context) {
+    private static SharedPreferences getSharedPreference(Context context) {
 
         return context.getSharedPreferences(AppConstants.SHARED_PREF_CONSTANT,
                 0);
 
     }
 
-    public static SharedPreferences.Editor getSharedPreferenceEditor(
+    private static SharedPreferences.Editor getSharedPreferenceEditor(
             Context context) {
 
         return getSharedPreference(context).edit();

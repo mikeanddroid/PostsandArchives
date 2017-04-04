@@ -56,7 +56,7 @@ public class LoginView extends BasePostsActivity {
         ButterKnife.bind(this);
 
         String cookieHost = Uri.parse(AppConstants.getLoginUrl()).getHost();
-        configureCookies(cookieHost);
+//        configureCookies(cookieHost);
 
         WebViewClient wvClient = new LoginWebViewClient(this);
         webView.setWebViewClient(wvClient);

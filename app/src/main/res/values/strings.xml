@@ -14,5 +14,8 @@
     <string name="error_server">There was a problem finding your request. Please try again.</string>
     <string name="error_unexpected">There was a problem finding your request. Please try again.</string>
     <string name="user">User</string>
+    <string name="next">next</string>
+
+    <string name="welcome_key">Welcome,</string>
 
 </resources>
