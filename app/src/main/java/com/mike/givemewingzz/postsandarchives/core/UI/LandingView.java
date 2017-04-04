@@ -81,7 +81,7 @@ public class LandingView extends BaseAuthActivity implements View.OnClickListene
 
         Log.d(TAG, "Auth Token : " + token.getAccessToken());
 
-        String welcomeKey = this.getResources().getString(R.string.welcome_key);
+        String welcomeKey = this.getResources().getString(R.string.user_name);
         String welcomedUserHead = welcomeKey.toUpperCase() + " " + tempToken.getUserFullName(this).toUpperCase() + "\u0023";
 
         userFirstName.setText(welcomedUserHead);

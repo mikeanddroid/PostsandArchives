@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_margin20">20dp</dimen>
+    <dimen name="dimen_margin10">10dp</dimen>
+    <dimen name="dimen_margin5">5dp</dimen>
+
+    <dimen name="dimen_margin40">40dp</dimen>
+    <dimen name="dimen_margin30">30dp</dimen>
+    <dimen name="dimen_margin2">2dp</dimen>
+
+    <dimen name="dimen_text18sp">18sp</dimen>
+    <dimen name="dimen_text16sp">18sp</dimen>
+    <dimen name="dimen_text14sp">14sp</dimen>
+    <dimen name="dimen_text20sp">20sp</dimen>
+
+    <dimen name="dimen_user_image_width">135dp</dimen>
+    <dimen name="dimen_user_image_height">135dp</dimen>
+
+</resources>

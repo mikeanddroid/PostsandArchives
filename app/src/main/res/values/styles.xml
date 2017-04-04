@@ -8,4 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="default_text_view_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAppearance">@style/text_view_style</item>
+    </style>
+
+    <style name="text_view_style" parent="@android:style/TextAppearance">
+        <item name="android:textColorLink">@color/blue_grey_11</item>
+        <item name="android:textColor">@color/blue_grey_11</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <style name="default_Image_view_style" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textAppearance">@style/text_view_style</item>
+    </style>
+
+    <style name="text_view_style_base">
+        <item name="android:textColor">@color/blue_grey_11</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
 </resources>

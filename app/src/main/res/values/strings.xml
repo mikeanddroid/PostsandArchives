@@ -16,6 +16,7 @@
     <string name="user">User</string>
     <string name="next">next</string>
 
-    <string name="welcome_key">Welcome,</string>
+    <string name="user_name">User Name</string>
+    <string name="user_summary">summary</string>
 
 </resources>
